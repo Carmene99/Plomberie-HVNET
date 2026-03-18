@@ -41,3 +41,16 @@ Pour répondre aux besoins de performance et de dynamisme, j'ai utilisé les tec
     Mise en œuvre de la sécurité de base (protection contre les injections SQL, validation des entrées).
 
     Déploiement sur un serveur local gratuit (InfinityFree) 
+
+## Installation Locale
+
+Pour faire fonctionner ce projet sur votre machine (via XAMPP/WAMP) :
+
+1. **Cloner le projet** dans votre dossier `htdocs`.
+2. **Importer la base de données** :
+   - Ouvrez `phpMyAdmin`.
+   - Créez une base de données nommée `plomberie_db`.
+   - Importez le fichier situé dans `/sql/database.sql`.
+3. **Configurer la connexion** :
+   - Modifiez le fichier `config.php` (ou `connexion.php`) avec mes identifiants locaux (host, user, password).
+4. **Lancer le site** : Accédez à `localhost/votre-dossier` dans votre navigateur.
